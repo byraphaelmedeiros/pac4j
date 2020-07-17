@@ -9,10 +9,10 @@ import com.github.scribejava.core.model.Verb;
 import org.pac4j.scribe.extractors.OrcidJsonExtractor;
 
 /**
- * This class represents the OAuth API implementation for ORCiD using OAuth protocol version 2.
+ * This class represents the OAuth API implementation for Gov.br using OAuth protocol version 2.
  *
- * @author Jens Tinglev
- * @since 1.6.0
+ * @author Raphael Medeiros
+ * @since 4.0.3
  */
 public class GovBrApi20 extends DefaultApi20 {
 

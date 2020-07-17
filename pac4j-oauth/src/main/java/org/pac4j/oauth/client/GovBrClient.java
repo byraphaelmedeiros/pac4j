@@ -2,16 +2,15 @@ package org.pac4j.oauth.client;
 
 import org.pac4j.oauth.exception.OAuthCredentialsException;
 import org.pac4j.oauth.profile.govbr.GovBrProfileDefinition;
-import org.pac4j.oauth.profile.orcid.OrcidProfile;
 import org.pac4j.scribe.builder.api.GovBrApi20;
 
 /**
- * <p>This class is the OAuth client to authenticate users in ORCiD.</p>
- * <p>It returns a {@link OrcidProfile}.</p>
+ * <p>This class is the OAuth client to authenticate users in Gov.br.</p>
+ * <p>It returns a {@link org.pac4j.oauth.profile.govbr.GovBrProfile}.</p>
  * <p>More information at https://manual-roteiro-integracao-login-unico.servicos.gov.br/pt/stable/</p>
  *
- * @author Jens Tinglev
- * @since 1.6.0
+ * @author Raphael Medeiros
+ * @since 4.0.3
  */
 public class GovBrClient extends OAuth20Client {
 

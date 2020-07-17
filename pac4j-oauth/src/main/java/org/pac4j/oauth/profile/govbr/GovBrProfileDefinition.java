@@ -11,10 +11,10 @@ import org.pac4j.oauth.profile.definition.OAuth20ProfileDefinition;
 import org.pac4j.scribe.model.GovBrToken;
 
 /**
- * This class is the Orcid profile definition.
+ * This class is the Gov.br profile definition.
  *
- * @author Jens Tinglev
- * @since 1.6.0
+ * @author Raphael Medeiros
+ * @since 4.0.3
  */
 public class GovBrProfileDefinition extends OAuth20ProfileDefinition<GovBrProfile, OAuth20Configuration> {
 
@@ -41,7 +41,7 @@ public class GovBrProfileDefinition extends OAuth20ProfileDefinition<GovBrProfil
             return String.format("https://api.orcid.org/v1.1/%s/orcid-profile",
                     ((GovBrToken) accessToken).getIdToken());
         } else {
-            throw new OAuthException("Token in getProfileUrl is not an OrcidToken");
+            throw new OAuthException("Token in getProfileUrl is not an GovBrToken");
         }
     }
 

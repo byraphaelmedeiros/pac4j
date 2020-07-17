@@ -7,7 +7,7 @@ import org.pac4j.oauth.profile.orcid.OrcidProfileDefinition;
 
 /**
  * <p>This class is the user profile for ORCiD with appropriate getters.</p>
- * <p>It is returned by the {@link org.pac4j.oauth.client.OrcidClient}.</p>
+ * <p>It is returned by the {@link org.pac4j.oauth.client.GovBrClient}.</p>
  *
  * @author Jens Tinglev
  * @since 1.6.0
